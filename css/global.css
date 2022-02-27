@@ -1,0 +1,87 @@
+/**Style Sheet: Global**/
+/**Tag Modifiers**/
+html {
+    font-family: verdana;
+    color: #335576;
+    background-color: #FFFFFF;
+}
+/**Nav bar must be fixed to the top of the page!**/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    margin: 0;
+}
+h1 {
+    font-size: 2.5rem;
+    font-style: bold;
+}
+h2 {
+    font-style: bold;
+}
+
+    /*Remove Bullets from Lists*/
+ul {
+    list-style-type: none;
+}
+main {
+    margin: 0;
+}
+footer {
+    display: flex;
+    background-color: #fefaf5;
+    justify-content: space-evenly;
+    padding: 2% 16% 0 16%;
+}
+
+/**Class Modifiers**/
+.head__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.logo__link {
+    color: #335576;
+    text-decoration: none;
+}
+.nav__primary {
+    display: flex;
+}
+    /**Style for Nav Links**/
+.nav__item {
+    display: inline-block;
+    justify-content: flex-end;
+    color: black;
+    margin: 0 10px;
+}
+.nav__link {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+.nav__link--active {
+    /**Note: Tried 'text-decoration: underline' but switched to border-bottom to replicate correct spacing**/ 
+    border-bottom: solid #DB7A4E 5px;
+}
+.footer__box {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #335576;
+}
+.footer__flex {
+    display: inline-block;
+    padding: 1%;
+}
+.footer__item {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #DB7A4E;
+}
+.footer__desc {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer__icon {
+   height: 9%;
+   margin: 17% 15% 0 0;
+}

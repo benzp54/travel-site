@@ -1,0 +1,53 @@
+/**Style Sheet: Destinations Page**/
+main {
+    color: black;
+}
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    padding: 5% 0 0 5%;
+    margin-top: 0;
+}
+h2 {
+    font-size: 1.2rem;
+    margin: 15px 10px 25px 10px;
+    border-bottom: 1px solid black;
+}
+ul {
+    padding-inline-start: 0;
+}
+.hero__hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.hero__iceland {
+    background-image: url("../assets/images/iceland.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.hero__greece {
+    background-image: url("../assets/images/greece.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.dest__container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 23rem;
+    margin: 0 5%;
+}
+.dest__list {
+    background-color: white;
+    border-radius: 5px;
+    width: 18rem;
+    text-align: center;
+}
+.dest__item {
+    padding: 15px;
+    margin: 15px;
+    background-color: #FEFAF5;
+}

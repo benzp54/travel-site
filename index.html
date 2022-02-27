@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Benz Phaisaltantiwongs">
+        <meta name="description" content="Travel Site Project">
+        <title>Travel Site</title>
+        <link rel="stylesheet" href="./css/global.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+    <!--Section: Header-->
+        <header>
+            <p class="head__title"><a class="logo__link" href="./index.html">Travel Site</a></p>
+            <nav class="nav__primary">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link nav__link--active" href="./index.html">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/hawaii.html">Hawaii</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/iceland.html">Iceland</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./pages/greece.html">Greece</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!--Section: Main-->  
+        <main>
+        <!--Section: Hero-->
+            <!--Recheck button not respecting margin-->
+        <section class="hero__container">
+            <div class="hero__text">
+                <h1>Travelling Comes With Endless Discoveries</h1>
+                <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+                <a class="button__start" href="./index.html">Get started</a>
+            </div>
+            <div class="hero__graphic">
+                <img class="hero__graphic--img" src="./assets/images/hero.png">
+            </div>
+        </section>
+    <!--Section: Recommendations-->
+        <section class="recommendations">
+            <h2>Recommendations</h2>
+            <!--Reassess classes (reusable code)-->
+            <div class="rec__box">
+                <a class="rec__card card__one" href="./pages/hawaii.html">
+                    <p class="rec__text">Hawaii</p>
+                </a>
+                <a class="rec__card card__two" href="./pages/iceland.html">
+                    <p class="rec__text">Iceland</p>
+                </a>
+                <a class="rec__card card__three" href="./pages/greece.html">
+                    <p class="rec__text">Greece</p>
+                </a>
+            </div>
+        </section>
+    <!--Section: Footer-->
+        <!--Reassess Flexbox sections; spacing (Hours);-->
+        <footer>
+            <div class="footer__box">
+                <p>Contact</p>
+                <div class="footer__flex">
+                    <p class="footer__item">EMAIL</p>
+                    <p class="footer__desc">info@travelsite.com</p>
+                </div>
+            </div>
+            <div class="footer__box">
+                <p>Hours</p>
+                <div class="footer__flex">
+                    <p class="footer__item">MONDAY - FRIDAY</p>
+                    <p class="footer__desc">9:00 AM - 5:00 PM</p>
+                </div>
+                <div class="footer__flex">
+                    <p class="footer__item">SATURDAY</p>
+                    <p class="footer__desc">10:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer__flex">
+                    <p class="footer__item">SUNDAY</p>
+                    <p class="footer__desc">Closed</p>
+                </div>
+            </div>
+            <div class="footer__box">
+                <p>Social</p>
+                <img class="footer__icon" src="./assets/images/icon-instagram.png" alt="instagram" href="https://instagram.com">
+                <img class="footer__icon" src="./assets/images/icon-facebook.png" alt="facebook" href="https://facebook.com">
+                <img class="footer__icon" src="./assets/images/icon-twitter.png" alt="twitter" href="https://twitter.com">
+            </div>
+        </footer>
+    </main>
+    </body>
+</html>
