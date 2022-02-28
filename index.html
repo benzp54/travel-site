@@ -27,12 +27,12 @@
     <!--Section: Main-->  
         <main>
         <!--Section: Hero-->
-            <!--Recheck button not respecting margin-->
         <section class="hero__container">
             <div class="hero__text">
                 <h1>Travelling Comes With Endless Discoveries</h1>
                 <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                <a class="button__start" href="./index.html">Get started</a>
+                <a class="button__link" href="./pages/start.html">
+                    <p class="button__start">Get started</p></a>
             </div>
             <div class="hero__graphic">
                 <img class="hero__graphic--img" src="./assets/images/hero.png">
@@ -55,36 +55,38 @@
             </div>
         </section>
     <!--Section: Footer-->
-        <!--Reassess Flexbox sections; spacing (Hours);-->
         <footer>
-            <div class="footer__box">
-                <p>Contact</p>
-                <div class="footer__flex">
+            <div class="footer__flex">
+                <h3>Contact</h3>
+                <div class="footer__box">
                     <p class="footer__item">EMAIL</p>
                     <p class="footer__desc">info@travelsite.com</p>
                 </div>
             </div>
-            <div class="footer__box">
-                <p>Hours</p>
-                <div class="footer__flex">
+            <div class="footer__flex">
+                <h3>Hours</h3>
+                <div class="footer__box">
                     <p class="footer__item">MONDAY - FRIDAY</p>
                     <p class="footer__desc">9:00 AM - 5:00 PM</p>
                 </div>
-                <div class="footer__flex">
+                <div class="footer__box">
                     <p class="footer__item">SATURDAY</p>
                     <p class="footer__desc">10:00 AM - 4:00 PM</p>
                 </div>
-                <div class="footer__flex">
+                <div class="footer__box">
                     <p class="footer__item">SUNDAY</p>
                     <p class="footer__desc">Closed</p>
                 </div>
             </div>
-            <div class="footer__box">
-                <p>Social</p>
-                <img class="footer__icon" src="./assets/images/icon-instagram.png" alt="instagram" href="https://instagram.com">
-                <img class="footer__icon" src="./assets/images/icon-facebook.png" alt="facebook" href="https://facebook.com">
-                <img class="footer__icon" src="./assets/images/icon-twitter.png" alt="twitter" href="https://twitter.com">
-            </div>
+            <div class="footer__flex">
+                <h3>Social</h3>
+                <a href="https://instagram.com" alt="instagram">
+                    <img class="footer__icon" src="./assets/images/icon-instagram.png" alt="instagram" href="https://instagram.com"></a>
+                <a href="https://facebook.com" alt="facebook">
+                    <img class="footer__icon" src="./assets/images/icon-facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com" alt="twitter">
+                    <img class="footer__icon" src="./assets/images/icon-twitter.png" alt="twitter"></a>
+                </div>
         </footer>
     </main>
     </body>

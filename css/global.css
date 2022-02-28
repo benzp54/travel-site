@@ -5,19 +5,30 @@ html {
     color: #335576;
     background-color: #FFFFFF;
 }
-/**Nav bar must be fixed to the top of the page!**/
+body {
+    margin: 0;
+}
+/**Enable: Nav Bar-fixed position**/
 header {
     display: flex;
+    background-color: #FFFFFF;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5%;
-    margin: 0;
+    position: fixed;
+    width: 100vw;
 }
 h1 {
     font-size: 2.5rem;
     font-style: bold;
 }
 h2 {
+    width: 100%;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+h3 {
+    width: 100%;
+    font-size: 1.5rem;
     font-style: bold;
 }
 
@@ -26,54 +37,65 @@ ul {
     list-style-type: none;
 }
 main {
+    padding-top: 3%;
     margin: 0;
 }
 footer {
     display: flex;
     background-color: #fefaf5;
-    justify-content: space-evenly;
-    padding: 2% 16% 0 16%;
+    justify-content: space-between;
+    padding: 1% 15%;
 }
 
 /**Class Modifiers**/
 .head__title {
     font-size: 1.25rem;
     font-weight: bold;
+    padding: 0 5%;
 }
 .logo__link {
     color: #335576;
     text-decoration: none;
 }
+
 .nav__primary {
     display: flex;
-}
-    /**Style for Nav Links**/
+    padding-right: 5%;
+} 
 .nav__item {
     display: inline-block;
     justify-content: flex-end;
     color: black;
-    margin: 0 10px;
+    margin-right: 10px;
+}
+    /**Hover animation for Nav Links**/
+.nav__item:hover {
+    background-color: #DB7A4E;
+    border-radius: 15px;
 }
 .nav__link {
     text-decoration: none;
     color: black;
-    padding-bottom: 5px;
+    padding: 10px 5px 5px 5px;
 }
 .nav__link--active {
     /**Note: Tried 'text-decoration: underline' but switched to border-bottom to replicate correct spacing**/ 
     border-bottom: solid #DB7A4E 5px;
 }
-.footer__box {
+.footer__flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     font-size: 1.3rem;
     font-weight: bold;
     color: #335576;
+    margin: 1%;
 }
-.footer__flex {
-    display: inline-block;
+.footer__box {
     padding: 1%;
 }
 .footer__item {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 400;
     color: #DB7A4E;
 }
@@ -82,6 +104,5 @@ footer {
     font-weight: 400;
 }
 .footer__icon {
-   height: 9%;
-   margin: 17% 15% 0 0;
+    height: 1.5em;
 }

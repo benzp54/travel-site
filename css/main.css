@@ -14,12 +14,17 @@
     width: 60%;
     padding: 5% 0 5% 5%;
 }
+.button__link {
+    text-decoration: none;
+}
 .button__start {
     color: white;
     background-color: #DB7A4E;
-    text-decoration: none;
-    padding: 10px 20px;
+    max-width: fit-content;
+    text-align: center;
     border-radius: 25px;
+    padding: 2% 5%;
+    margin-top: 5%;
 }
 .hero__graphic {
     display: inline-block;
@@ -30,8 +35,8 @@
     height: 350px;
 }
 .recommendations {
-    padding: 0 80px;
-    margin-bottom: 60px;
+    padding: 2% 5%;
+    margin-bottom: 5%;
 }
 .rec__box {
     display: flex;
@@ -52,7 +57,7 @@
     align-items: flex-end;
 }
 .rec__text {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-right: 5%;
 }
